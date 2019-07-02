@@ -1,6 +1,3 @@
-import ez_setup
-ez_setup.use_setuptools() # in case users don't have setuptools installed
-
 from setuptools import setup
 
 import NYTimesArticleAPI
@@ -33,6 +30,7 @@ setup(
     ],
     install_requires=[
         "requests >= 2.7.0",
+        "setuptools >= 39.0.1"
     ],
     packages=[
         "NYTimesArticleAPI",
