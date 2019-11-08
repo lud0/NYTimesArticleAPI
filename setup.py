@@ -1,7 +1,5 @@
 from setuptools import setup
 
-import NYTimesArticleAPI
-
 setup(
     name="NYTimesArticleAPI",
     description="Python wrapper for the New York Times Article Search API",
