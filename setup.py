@@ -3,8 +3,8 @@ from setuptools import setup
 setup(
     name="NYTimesArticleAPI",
     description="Python wrapper for the New York Times Article Search API",
-    version=NYTimesArticleAPI.__version__,
-    author=NYTimesArticleAPI.__author__,
+    version="1.0.0",
+    author="Matt Morrison (@MattDMo)",
     author_email="mattdmo@pigimal.com",
     url="https://github.com/MattDMo/NYTimesArticleAPI",
     license="MIT",
