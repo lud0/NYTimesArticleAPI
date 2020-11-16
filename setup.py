@@ -29,6 +29,7 @@ setup(
     install_requires=[
         "requests >= 2.7.0",
         "setuptools >= 39.0.1"
+        "urllib3 >= 1.26.2"
     ],
     packages=[
         "NYTimesArticleAPI",
