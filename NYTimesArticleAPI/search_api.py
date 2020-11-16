@@ -62,7 +62,7 @@ class articleAPI(object):
         values = ''
 
         for k, v in kwargs.items():
-            if k is 'fq' and isinstance(v, dict):
+            if k == 'fq' and isinstance(v, dict):
                 v = _format_fq(v)
             elif isinstance(v, list):
                 v = ','.join(v)
