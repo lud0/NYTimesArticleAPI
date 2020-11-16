@@ -28,7 +28,7 @@ setup(
     ],
     install_requires=[
         "requests >= 2.24.0",
-        "setuptools >= 39.0.1"
+        "setuptools >= 39.0.1",
         "urllib3 >= 1.26.2"
     ],
     packages=[
